@@ -1,0 +1,80 @@
+/* Reset some default styles and apply a background color */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style the header and navigation */
+header, nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.exercise-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.diet-icon {
+    width: 100px;
+    height: 100px;
+}
+
+/* CSS to add spacing between medication prescriptions */
+.prescription-container {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.project {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.activity {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.chart-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.doctor-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.medication-icon {
+    width: 100px;
+    height: 100px;
+}

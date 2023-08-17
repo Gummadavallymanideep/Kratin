@@ -78,3 +78,16 @@ footer {
     width: 100px;
     height: 100px;
 }
+
+.dashboard {
+    display: flex;
+    gap: 20px; /* Adjust the gap between activities */
+}
+.activity {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.inline {
+    flex: 1;
+}
